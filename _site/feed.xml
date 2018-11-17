@@ -6,8 +6,8 @@
 </description>
     <link>https://ylmz05.github.io//</link>
     <atom:link href="https://ylmz05.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Nov 2018 21:53:55 +0300</pubDate>
-    <lastBuildDate>Sat, 17 Nov 2018 21:53:55 +0300</lastBuildDate>
+    <pubDate>Sun, 18 Nov 2018 00:43:30 +0300</pubDate>
+    <lastBuildDate>Sun, 18 Nov 2018 00:43:30 +0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -71,6 +71,74 @@ seçenekleri karşımıza çıkıyor.&lt;/p&gt;
         <pubDate>Fri, 07 Sep 2018 02:34:01 +0300</pubDate>
         <link>https://ylmz05.github.io//projects/documentation/2018/09/07/telegram-rss-servis.html</link>
         <guid isPermaLink="true">https://ylmz05.github.io//projects/documentation/2018/09/07/telegram-rss-servis.html</guid>
+        
+        
+        <category>projects</category>
+        
+        <category>documentation</category>
+        
+      </item>
+    
+      <item>
+        <title>Telegram Rss Service</title>
+        <description>&lt;p&gt;Project is briefly gets updates from RSS using telegram bots via telegram groups or channels.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-&quot;&gt;How to use ?&lt;/h2&gt;
+
+&lt;p&gt;Firstly, communicate telegram bot named as &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; in order to get updates. There is only one command.&lt;/p&gt;
+
+&lt;p&gt;Command: &lt;code class=&quot;highlighter-rouge&quot;&gt;/start&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When the command is called, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; shows menu as follows
+&lt;img src=&quot;/assets/images/startScreen.jpg&quot; alt=&quot;start screen command&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1-Channels&lt;/code&gt; button shows three options.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;List Channels:&lt;/strong&gt; shows all channels. If any channel is chosen, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; list all  added RSS. in order to get updates to channel, choose one of the listed RSS.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Channel:&lt;/strong&gt; removes added channels. &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; shows &lt;code class=&quot;highlighter-rouge&quot;&gt;unbounded&lt;/code&gt; channels. If you want to remove &lt;code class=&quot;highlighter-rouge&quot;&gt;bounded&lt;/code&gt; channel, firstly remove RSS from channel &lt;em&gt;(Rss &amp;gt; List Rss &amp;gt; {Chosen Rss} &amp;gt; {Chosen Channel})&lt;/em&gt;. &lt;em&gt;(bound: RSS is added to channel or group in order to get updates, unbound: Remove RSS from channel or group in order to &lt;code class=&quot;highlighter-rouge&quot;&gt;not&lt;/code&gt; get updates)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Add Channel:&lt;/strong&gt; add channel to list. When &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Channel&lt;/code&gt; option is chosen, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; produce code. Ex;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;zJV7FXPiRlhvBbn3sjdebGI0ugDVv8XFHYBvzgfzBqWuevsDDV&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;this code must be sent to channel that contains &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; as administrator within any privilege.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2-Groups&lt;/code&gt; button shows three options.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;List Groups:&lt;/strong&gt; shows all groups. If any group is chosen, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; list all added RSS. in order to get updates to group, choose one of the listed RSS.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Group:&lt;/strong&gt; remove added groups. &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; shows &lt;code class=&quot;highlighter-rouge&quot;&gt;unbounded&lt;/code&gt; groups. If you want to remove &lt;code class=&quot;highlighter-rouge&quot;&gt;bounded&lt;/code&gt; group, firstly remove RSS from group &lt;em&gt;(Rss &amp;gt; List Rss &amp;gt; {Chosen Rss} &amp;gt; {Chosen Group})&lt;/em&gt;. &lt;em&gt;(bound: RSS is added to channel or group in order to get updates, unbound: Remove RSS from channel or group in order to &lt;code class=&quot;highlighter-rouge&quot;&gt;not&lt;/code&gt; get updates)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Add Group:&lt;/strong&gt; add group to list. When &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; is invited to any group, the group will be added to list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3-Rss&lt;/code&gt; button shows three options.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;List Rss:&lt;/strong&gt; shows all RSS that is added by you. If any RSS is chosen, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; list all &lt;code class=&quot;highlighter-rouge&quot;&gt;bounded&lt;/code&gt; groups and channels. After channels and groups are listed, choose one of the below in order to &lt;code class=&quot;highlighter-rouge&quot;&gt;unbound&lt;/code&gt; RSS to channel or group.&lt;em&gt;(bound: RSS is added to channel or group in order to get updates, unbound:Remove RSS from channel or group in order to &lt;code class=&quot;highlighter-rouge&quot;&gt;not&lt;/code&gt; get updates)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Rss:&lt;/strong&gt; removes added RSS. &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; shows &lt;code class=&quot;highlighter-rouge&quot;&gt;unbounded&lt;/code&gt; RSS. If you want to remove &lt;code class=&quot;highlighter-rouge&quot;&gt;bounded&lt;/code&gt; RSS, firstly unbound rss from group or channel &lt;em&gt;(Rss &amp;gt; List Rss &amp;gt; {Chosen Rss} &amp;gt; {Chosen Channel or Group})&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Add Rss:&lt;/strong&gt; adds rss to list. After options is chosen, send RSS URL to &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; as message. Last step is, send alias name for URL. this alias name will be used in &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; menu. &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; will show you alias name instead of URL in &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; menu.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 07 Sep 2018 02:34:01 +0300</pubDate>
+        <link>https://ylmz05.github.io//projects/documentation/2018/09/07/telegram-rss-service.html</link>
+        <guid isPermaLink="true">https://ylmz05.github.io//projects/documentation/2018/09/07/telegram-rss-service.html</guid>
         
         
         <category>projects</category>
