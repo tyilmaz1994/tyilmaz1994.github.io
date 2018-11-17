@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Telegram Rss Servis — Rss Takibi &raquo;  Tunahan YILMAZ</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+<meta name="keywords" content="">
+<link rel="canonical" href="https://ylmz05.github.io//projects/documentation/2018/09/06/telegram-rss-servis.html">
+        
+
+
+
+
+<!-- Twitter Cards -->
+<!-- <meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Telegram Rss Servis" />
+<meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+" />
+<meta name="twitter:image" content="https://ylmz05.github.io/" /> -->
+
+<!-- Google plus -->
+<!-- <meta name="author" content="">
+<link rel="author" href=""> -->
+
+<!-- Open Graph -->
+<!-- <meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Telegram Rss Servis">
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+<meta property="og:url" content="https://ylmz05.github.io//projects/documentation/2018/09/06/telegram-rss-servis.html">
+<meta property="og:site_name" content="Tunahan YILMAZ"> -->
+
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+
+  <link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="navigation">
+        <a href="/" class="logo">Tunahan YILMAZ</a>
+
+        <ul class="menu">
+            <li class="menu__entry"><a href="/about">About</a></li>
+            <li class="menu__entry"><a href="/">Blog</a></li>
+        </ul>
+    </div>
+
+    <ul class="social-links">
+        
+            <a href="https://github.com/ylmz05" class="social-links__entry" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        
+
+        
+            <a href="https://tr.linkedin.com/in/tunahanyilmaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        
+    </ul>
+</header>
+
+            <h1 class="page-title post-title">
+    <div class="page-title__text post-title__text">Telegram Rss Servis</div>
+    <div class="page-title__subtitle post-title__subtitle">Rss Takibi</div>
+</h1>
+
+<div class="content">
+    <p>Proje kısaca, telegram botu kullanarak telegramın grup yada kanalından RSS güncellemelerini takip etmemizi sağlıyor.</p>
+
+<h2 id="kullanım">Kullanım</h2>
+
+<p>RSS takibi için ilk olarak, <code class="highlighter-rouge">@RssService</code> adlı bot ile konuşmamız gerekiyor. Botun sadece bir komutu var.</p>
+
+<p>Komut: <code class="highlighter-rouge">/start</code>.</p>
+
+<p>Komut kullanıldığında,
+<img src="/assets/images/startScreen.jpg" alt="start komutu ekranı" />
+seçenekleri karşımıza çıkıyor.</p>
+
+<p><code class="highlighter-rouge">1-Channels</code> seçeneği, karşımıza 3 seçenek çıkartır.</p>
+
+<ul>
+  <li>
+    <p><strong>List Channels:</strong> Programda sizin eklediğiniz tüm kanalları gösterir. Herhangi bir kanal seçildiğinde, karşımıza programa eklenen tüm RSS ler listelenir. <em>Seçilen RSS kanala eklenir.</em></p>
+  </li>
+  <li>
+    <p><strong>Remove Channel:</strong> Ekli olan kanalları programın listesinden silmenizi sağlar. Kanalın listede gözükebilmesi için, kanalın üzerinden RSS takibi yapılmaması gerekiyor.</p>
+  </li>
+  <li>
+    <p><strong>Add Channel:</strong> Programın listesine kanal eklemek için, <code class="highlighter-rouge">Add Channel</code> seçeneği seçilmesi gerekiyor. Seçildiğininde kod üretir. Örnek;</p>
+  </li>
+</ul>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">zJV7FXPiRlhvBbn3sjdebGI0ugDVv8XFHYBvzgfzBqWuevsDDV</span></code></pre></figure>
+<p>Bu kodu eklenmek istenen kanala mesaj olarak gönderildiğinde, <strong>eğer bot kodu gönderilen kanalda ekliyse, kanal programın listesine eklenir.</strong> Diğer durumlarda kanal eklenemez.</p>
+
+<p><code class="highlighter-rouge">2-Groups</code> seçeneği, karşımıza 3 seçenek çıkartır.</p>
+
+<ul>
+  <li>
+    <p><strong>List Groups:</strong> Programda sizin eklediğiniz tüm grupları gösterir. Herhangi bir grup seçildiğinde, karşımıza programa eklenen tüm RSS ler listelenir. <em>Seçilen RSS gruba eklenir.</em></p>
+  </li>
+  <li>
+    <p><strong>Remove Group:</strong> Ekli olan grupları programın listesinden silmenizi sağlar. Grubun listede gözükebilmesi için, grubun üzerinden RSS takibi yapılmaması gerekiyor.</p>
+  </li>
+  <li>
+    <p><strong>Add Group:</strong> Programın listesine grup eklemek için, <code class="highlighter-rouge">@RssService</code> botunu eklemek istediğiniz gruba davet ettiğinizde programa otomatik olarak grup eklenir.</p>
+  </li>
+</ul>
+
+<p><code class="highlighter-rouge">3-Rss</code> seçeneği, karşımıza 3 seçenek çıkartır.</p>
+
+<ul>
+  <li>
+    <p><strong>List Rss:</strong> Programda sizin eklediğiniz tüm RSS leri gösterir. Herhangi bir RSS seçildiğinde, RSS in ekli olduğu tüm grupları ve kanalları listeler. Eğer bir grup yada kanal seçilirse, seçilen kanaldan ilgili RSS takibi bırakılır.</p>
+  </li>
+  <li>
+    <p><strong>Remove Rss:</strong> Ekli olan RSS leri programın listesinden silmenizi sağlar. Sadece takibi yapılmayan RSS leri gösterir. <strong>Silinmek istenen RSS grup yada kanaldan takip ediliyorsa, listede gözükmez (silinemez).</strong></p>
+  </li>
+  <li>
+    <p><strong>Add Rss:</strong> Programın listesine RSS eklemek için, <code class="highlighter-rouge">Add Rss</code> seçeneği seçilmesi gerekiyor. Seçildiğinde bizden RSS in bulunduğu URL i ister. URL girildiğinde, kontrolü yapılır. Eğer dosya RSS ise sizden takma bir isim istenir. Girilen URL i temsili olarak programda saklanır ve siz botun menülerinde gezinirken gözükür.</p>
+  </li>
+</ul>
+
+</div>
+
+<div class="about">
+    <div class="about__devider">*****</div>
+    <div class="about__text">
+        Written by <strong>  Tunahan YILMAZ </strong>
+        on <strong>06 September 2018</strong>
+    </div>
+</div>
+
+
+        </div>
+
+        <script src="/assets/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+        
+    </body>
+</html>
