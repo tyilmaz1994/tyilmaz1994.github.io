@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tunahan YILMAZ</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>https://ylmz05.github.io//</link>
+    <atom:link href="https://ylmz05.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Nov 2018 21:53:55 +0300</pubDate>
+    <lastBuildDate>Sat, 17 Nov 2018 21:53:55 +0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Telegram Rss Servis</title>
+        <description>&lt;p&gt;Proje kısaca, telegram botu kullanarak telegramın grup yada kanalından RSS güncellemelerini takip etmemizi sağlıyor.&lt;/p&gt;
+
+&lt;h2 id=&quot;kullanım&quot;&gt;Kullanım&lt;/h2&gt;
+
+&lt;p&gt;RSS takibi için ilk olarak, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; adlı bot ile konuşmamız gerekiyor. Botun sadece bir komutu var.&lt;/p&gt;
+
+&lt;p&gt;Komut: &lt;code class=&quot;highlighter-rouge&quot;&gt;/start&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Komut kullanıldığında,
+&lt;img src=&quot;/assets/images/startScreen.jpg&quot; alt=&quot;start komutu ekranı&quot; /&gt;
+seçenekleri karşımıza çıkıyor.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1-Channels&lt;/code&gt; seçeneği, karşımıza 3 seçenek çıkartır.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;List Channels:&lt;/strong&gt; Programda sizin eklediğiniz tüm kanalları gösterir. Herhangi bir kanal seçildiğinde, karşımıza programa eklenen tüm RSS ler listelenir. &lt;em&gt;Seçilen RSS kanala eklenir.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Channel:&lt;/strong&gt; Ekli olan kanalları programın listesinden silmenizi sağlar. Kanalın listede gözükebilmesi için, kanalın üzerinden RSS takibi yapılmaması gerekiyor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Add Channel:&lt;/strong&gt; Programın listesine kanal eklemek için, &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Channel&lt;/code&gt; seçeneği seçilmesi gerekiyor. Seçildiğininde kod üretir. Örnek;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;zJV7FXPiRlhvBbn3sjdebGI0ugDVv8XFHYBvzgfzBqWuevsDDV&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Bu kodu eklenmek istenen kanala mesaj olarak gönderildiğinde, &lt;strong&gt;eğer bot kodu gönderilen kanalda ekliyse, kanal programın listesine eklenir.&lt;/strong&gt; Diğer durumlarda kanal eklenemez.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2-Groups&lt;/code&gt; seçeneği, karşımıza 3 seçenek çıkartır.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;List Groups:&lt;/strong&gt; Programda sizin eklediğiniz tüm grupları gösterir. Herhangi bir grup seçildiğinde, karşımıza programa eklenen tüm RSS ler listelenir. &lt;em&gt;Seçilen RSS gruba eklenir.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Group:&lt;/strong&gt; Ekli olan grupları programın listesinden silmenizi sağlar. Grubun listede gözükebilmesi için, grubun üzerinden RSS takibi yapılmaması gerekiyor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Add Group:&lt;/strong&gt; Programın listesine grup eklemek için, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RssService&lt;/code&gt; botunu eklemek istediğiniz gruba davet ettiğinizde programa otomatik olarak grup eklenir.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3-Rss&lt;/code&gt; seçeneği, karşımıza 3 seçenek çıkartır.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;List Rss:&lt;/strong&gt; Programda sizin eklediğiniz tüm RSS leri gösterir. Herhangi bir RSS seçildiğinde, RSS in ekli olduğu tüm grupları ve kanalları listeler. Eğer bir grup yada kanal seçilirse, seçilen kanaldan ilgili RSS takibi bırakılır.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Remove Rss:&lt;/strong&gt; Ekli olan RSS leri programın listesinden silmenizi sağlar. Sadece takibi yapılmayan RSS leri gösterir. &lt;strong&gt;Silinmek istenen RSS grup yada kanaldan takip ediliyorsa, listede gözükmez (silinemez).&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Add Rss:&lt;/strong&gt; Programın listesine RSS eklemek için, &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Rss&lt;/code&gt; seçeneği seçilmesi gerekiyor. Seçildiğinde bizden RSS in bulunduğu URL i ister. URL girildiğinde, kontrolü yapılır. Eğer dosya RSS ise sizden takma bir isim istenir. Girilen URL i temsili olarak programda saklanır ve siz botun menülerinde gezinirken gözükür.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 07 Sep 2018 02:34:01 +0300</pubDate>
+        <link>https://ylmz05.github.io//projects/documentation/2018/09/07/telegram-rss-servis.html</link>
+        <guid isPermaLink="true">https://ylmz05.github.io//projects/documentation/2018/09/07/telegram-rss-servis.html</guid>
+        
+        
+        <category>projects</category>
+        
+        <category>documentation</category>
+        
+      </item>
+    
+  </channel>
+</rss>
