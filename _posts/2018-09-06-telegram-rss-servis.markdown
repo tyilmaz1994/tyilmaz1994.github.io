@@ -40,3 +40,7 @@ seçenekleri karşımıza çıkıyor.
 * **Remove Rss:** Ekli olan RSS leri programın listesinden silmenizi sağlar. Sadece takibi yapılmayan RSS leri gösterir. **Silinmek istenen RSS grup yada kanaldan takip ediliyorsa, listede gözükmez (silinemez).**
 
 * **Add Rss:** Programın listesine RSS eklemek için, `Add Rss` seçeneği seçilmesi gerekiyor. Seçildiğinde bizden RSS in bulunduğu URL i ister. URL girildiğinde, kontrolü yapılır. Eğer dosya RSS ise sizden takma bir isim istenir. Girilen URL i temsili olarak programda saklanır ve siz botun menülerinde gezinirken gözükür.
+
+## Yenilikler
+
+* `/bugreport` adında yeni bir komut eklendi. Komut sayesinde bize isteklerinizi, karşılaştığınız bug'ları iletebilirsiniz.(2018-11-18)

@@ -39,3 +39,7 @@ When the command is called, `@RssService` shows menu as follows
 * **Remove Rss:** removes added RSS. `@RssService` shows `unbounded` RSS. If you want to remove `bounded` RSS, firstly unbound rss from group or channel *(Rss > List Rss > {Chosen Rss} > {Chosen Channel or Group})*.
 
 * **Add Rss:** adds rss to list. After options is chosen, send RSS URL to `@RssService` as message. Last step is, send alias name for URL. this alias name will be used in `@RssService` menu. `@RssService` will show you alias name instead of URL in `@RssService` menu.
+
+## Features
+
+* new command `/bugreport` is added. You can report any bug, issue or advise using this command.(2018-11-18)
