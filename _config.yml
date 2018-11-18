@@ -1,7 +1,6 @@
 # Site settings
 title: Tunahan YILMAZ
-description: >
-  Follow website news using telegram. You can register RSS to @RssService telegram bot to
+description: Follow website news using telegram. You can register RSS to @RssService telegram bot to
   get updates from websites.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
