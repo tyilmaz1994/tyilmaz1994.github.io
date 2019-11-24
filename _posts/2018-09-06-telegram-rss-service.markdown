@@ -7,6 +7,8 @@ categories: [projects, documentation]
 ---
 Project is briefly gets updates from RSS using telegram bots via telegram groups or channels. 
 
+#[Deprecated] Theese instructions are renewed. You can find out communicating with `https://web.telegram.org/#/im?p=@RssServiceBot` what is change...
+
 ## How to use ?
 
 Firstly, communicate telegram bot named as `@RssService` in order to get updates. There is only one command.
@@ -43,3 +45,4 @@ When the command is called, `@RssService` shows menu as follows
 ## Features
 
 * new command `/bugreport` is added. You can report any bug, issue or advise using this command.(2018-11-18)
+* system is renewed. Everything is changed (2019-11-24)
