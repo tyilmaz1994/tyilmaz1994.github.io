@@ -46,3 +46,4 @@ seçenekleri karşımıza çıkıyor.
 ## Yenilikler
 
 * `/bugreport` adında yeni bir komut eklendi. Komut sayesinde bize isteklerinizi, karşılaştığınız bug'ları iletebilirsiniz.(2018-11-18)
+* Komutlar yenilendi.(2019-11-24)
