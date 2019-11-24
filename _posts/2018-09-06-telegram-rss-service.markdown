@@ -7,7 +7,7 @@ categories: [projects, documentation]
 ---
 Project is briefly gets updates from RSS using telegram bots via telegram groups or channels. 
 
-#[Deprecated] Theese instructions are renewed. You can find out communicating with `https://web.telegram.org/#/im?p=@RssServiceBot` what is change...
+# [Deprecated] Theese instructions are renewed. You can find out communicating with `[Link Text](https://web.telegram.org/#/im?p=@RssServiceBot)` what is change...
 
 ## How to use ?
 
