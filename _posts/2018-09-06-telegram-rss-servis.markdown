@@ -5,6 +5,8 @@ subtitle: "Rss Takibi"
 date:   2018-09-06 23:34:01
 categories: [projects, documentation]
 ---
+## [Artık Kullanılmıyor] Komutlar yenilendi ve aşağıda yazan çoğu açıklama geçersiz. `@RssServiceBot` ile telegramdan iletişim kurarak nelerin değiştiğini görebilirsiniz. 
+
 Proje kısaca, telegram botu kullanarak telegramın grup yada kanalından RSS güncellemelerini takip etmemizi sağlıyor.
 
 ## Kullanım
