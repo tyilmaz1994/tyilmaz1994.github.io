@@ -5,9 +5,10 @@ subtitle: "Rss Tracker"
 date:   2018-09-06 23:34:01
 categories: [projects, documentation]
 ---
-Project is briefly gets updates from RSS using telegram bots via telegram groups or channels. 
 
-# [Deprecated] Theese instructions are renewed. You can find out communicating with `[Link Text](https://web.telegram.org/#/im?p=@RssServiceBot)` what is change...
+## [Deprecated] Theese instructions are renewed. You can find out communicating with `[Link Text](https://web.telegram.org/#/im?p=@RssServiceBot)` what is change...
+
+Project is briefly gets updates from RSS using telegram bots via telegram groups or channels. 
 
 ## How to use ?
 
