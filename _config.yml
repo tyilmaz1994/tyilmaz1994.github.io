@@ -4,11 +4,11 @@ description: Follow website news using telegram. You can register RSS to @RssSer
   get updates from websites.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ylmz05.github.io/" # the base hostname & protocol for your site
+url: "https://tyilmaz1994.github.io/" # the base hostname & protocol for your site
 
 author:
   fullname: Tunahan YILMAZ
-  github: ylmz05
+  github: tyilmaz1994
   linkedin: tunahanyilmaz
   # disqus: your_disqus_forum_shortname
 
